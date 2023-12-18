@@ -1,0 +1,22 @@
+[
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2Fonboarding_logo.png?alt=media&token=f2d53a23-6c03-4257-bb9b-8088ec2e1ef9",
+      "title":"Weather\n Monitoring",
+      "bgImage": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2FOnboarding1.png?alt=media&token=938bc156-7f5d-4f5e-82c2-bf688c462300",
+      "desc":"Leveraging on satellites and our Al, we keep an \n eye on weather patterns, forecast and past \n weather data to let you know about possible \n harmful patterns that might affect your crops \n before it happens."},
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2Fonboarding_logo.png?alt=media&token=f2d53a23-6c03-4257-bb9b-8088ec2e1ef9",
+      "title":" Satellite\n Imagery",
+      "bgImage": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2FOnboarding2.png?alt=media&token=1e49122d-7768-4729-ac1b-b54e9d1fa5fd",
+      "desc":"Access to daily 3.7-meter resolution satellite \n imagery, we support informed crop \n management decisions, enabling farmers and \n agronomists to monitor and maximize \n their crop health each season thereby driving \n precision digital agriculture at scale."},
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2Fonboarding_logo.png?alt=media&token=f2d53a23-6c03-4257-bb9b-8088ec2e1ef9",
+      "title":"Drone\n Flight",
+      "bgImage": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2FOnboarding3.png?alt=media&token=9ef107cd-0f73-460a-81f1-c1b0d1ec9cd9",
+      "desc":"Using our mobile application, we autonomously \n fly top of range fleet of multispectral drones to \n capture image data which feeds into our \n Agtech application platform for processing. The \n output is valuable and actionable insights for \n the farm owner and agronomist."},
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2Fonboarding_logo.png?alt=media&token=f2d53a23-6c03-4257-bb9b-8088ec2e1ef9",
+      "title":"AI\n Backed",
+      "bgImage": "https://firebasestorage.googleapis.com/v0/b/smatcrow.appspot.com/o/assets2%2Fshared_assets%2Fonboarding_assets%2FOnboarding4.png?alt=media&token=b17d8da6-00f0-4c12-b204-f6647d6b6a09",
+      "desc":"Data using state of the art artificial intelligence, \n we take all the data gathered from loT, satellite \n and drones to generate insight about your crop \n health."}
+]

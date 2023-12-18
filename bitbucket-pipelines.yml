@@ -1,0 +1,47 @@
+image: atlassian/default-image:3
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Build and Push Docker Image
+          services:
+            - docker
+          script:
+            # Log in to Docker Hub
+            - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
+
+            # Build the Docker image
+            - docker build -t $DOCKER_HUB_ID/anyfarm_portal:latest .
+
+            # Push the Docker image to Docker Hub
+            - docker push $DOCKER_HUB_ID/anyfarm_portal:latest
+    develop:
+      - step:
+          name: Build and Push Docker Image
+          services:
+            - docker
+          script:
+            # Log in to Docker Hub
+            - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
+
+            # Build the Docker image
+            - docker build -t $DOCKER_HUB_ID/anyfarm_portal:$BITBUCKET_BRANCH .
+
+            # Push the Docker image to Docker Hub
+            - docker push $DOCKER_HUB_ID/anyfarm_portal:$BITBUCKET_BRANCH
+      #- step:
+      #    name: Deploy to Ubuntu Server
+       #   script:
+            # Install sshpass utility
+       #     - apt-get update && apt-get install -y unzip
+       #     - apt-get -y install openssh-server
+       #     - apt-get install -q -y sshpass
+
+            # SSH into the server and pull the latest Docker image, then restart the container
+       #     - sshpass -p "$SSH_PASSWORD" ssh -p 2022 $SERVER_USER@$DEV_SERVER_IP "docker pull $DOCKER_HUB_ID/anyfarm_portal:$BITBUCKET_BRANCH && docker stop anyfarm_portal && docker rm anyfarm_portal && docker run --name anyfarm_portal -d -p 8880:80 $DOCKER_HUB_ID/anyfarm_portal:$BITBUCKET_BRANCH"
+definitions:
+  services:
+    docker:
+      memory: 2048
+#  docker pull airsmatinc/anyfarm_portal:develop && docker stop anyfarm_portal && docker rm anyfarm_portal && docker run --name anyfarm_portal -d -p 8880:80 airsmatinc/anyfarm_portal:develop

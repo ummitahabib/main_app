@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "681788757118",
+    "project_id": "smatcrow",
+    "storage_bucket": "smatcrow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681788757118:android:db5333d3e22c583901f42f",
+        "android_client_info": {
+          "package_name": "com.airsmat.smat_crow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681788757118-k5mbacqjki4r6qqfp0bb6h6mivkjivhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.airsmat.smat_crow",
+            "certificate_hash": "52d59b00efb530ee17df23cde6bfed099c16d447"
+          }
+        },
+        {
+          "client_id": "681788757118-varlul8mun2kl64cqi2vtgnt9gf10608.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.airsmat.smat_crow",
+            "certificate_hash": "b5298706b6b5da8467d3626569c8182f063ee0e3"
+          }
+        },
+        {
+          "client_id": "681788757118-q220aqe3oj29upf6in45go23ms3bsnc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvmgDTtNsa7yBFIvNAkVOBwD-2Ey9GJjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681788757118-q220aqe3oj29upf6in45go23ms3bsnc3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "681788757118-10rmmgasa4m1hh905tua5nc6hbka0mah.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.airsmat.smatcrows",
+                "app_store_id": "1589446189"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

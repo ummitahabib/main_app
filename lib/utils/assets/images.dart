@@ -1,0 +1,30 @@
+class ImagesAssets{
+  static const String kBackArrow = 'assets/images/back_arrow_icon.png';
+  static const String kBatchImages = 'assets/images/batch_images.png';
+  static const String kCctv = 'assets/images/cctv.png';
+  static const String kChatBox = 'assets/images/chatbox.png';
+  static const String kChatBox1 = 'assets/images/chatbox1.png';
+  static const String kCheckIcon = 'assets/images/check_icon.png';
+  static const String kDeleteIcon = 'assets/images/delete_icon.png';
+  static const String kEmpty = 'assets/images/empty.png';
+  static const String kEmptySub = 'assets/images/empty_subscription_icon.png';
+  static const String kFarmImage = 'assets/images/farm_image.png';
+  static const String kFocus = 'assets/images/focus.png';
+  static const String kGetStartedBg = 'assets/images/get_started_bg.png';
+  static const String kHot = 'assets/images/hot.png';
+  static const String kLogin = 'assets/images/login.png';
+  static const String kLoginSheet = 'assets/images/loginsheet.png';
+  static const String kLogo = 'assets/images/logo.png';
+  static const String kNight = 'assets/images/night.jpg';
+  static const String kNoTask = 'assets/images/no_task_vector.png';
+  static const String kRainy = 'assets/images/rainy.jpg';
+  static const String kSearchLeaf = 'assets/images/search_leaf.png';
+  static const String kSearchUrl = 'assets/images/search_url.png';
+  static const String kSectorImage = 'assets/images/sector_image.jpg';
+  static const String kSitesImage = 'assets/images/sites_image.png';
+  static const String kSoilTest = 'assets/images/soil_test_image.jpg';
+  static const String kSun = 'assets/images/sun.png';
+  static const String kSunny = 'assets/images/sunny.jpg';
+  static const String kTree = 'assets/images/tree.png';
+  static const String kUploadLeaf = 'assets/images/upload_leaf.png';
+}
